@@ -32,8 +32,29 @@ p, li {
 /*BOTÃO INICIAR CURSO MARIANA RAMALHO*/
 
 
-/*OS DESENVOLVEDORES WILLIAN GARCIA E LUIZ EDUARDO*/
+/*OS DESENVOLVEDORES WILLIAN GARCIA E LUIS EDUARDO*/
 
+#dese{
+    background-color: #F0F0F0;
+    background-image: url("../img/Padrão Cinza.png");
+    background-repeat: no-repeat;
+    vertical-align: middle
+};
+
+#dese2{
+    position: relative;
+    width: 549px;
+    height: 338px;
+    top: 50%;
+    left: 10.138%
+};
+
+#titulo-dev h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    color: #004854
+};
 
 /*CONTATO RAFAEL ESTEVAM*/
 

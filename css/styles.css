@@ -34,27 +34,29 @@ p, li {
 
 /*OS DESENVOLVEDORES WILLIAN GARCIA E LUIS EDUARDO*/
 
+#texto-dev p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #292929;
+}
+
+#texto-dev h1{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    color: #004854;
+}
+
 #dese{
     background-color: #F0F0F0;
     background-image: url("../img/Padrão Cinza.png");
     background-repeat: no-repeat;
-    vertical-align: middle
-};
-
-#dese2{
-    position: relative;
-    width: 549px;
-    height: 338px;
-    top: 50%;
-    left: 10.138%
-};
-
-#titulo-dev h1{
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 150%;
-    color: #004854
-};
+}
 
 /*CONTATO RAFAEL ESTEVAM*/
 

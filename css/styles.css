@@ -47,7 +47,33 @@ p, li {
 /*BARRA DE NAVEGAÇÃO HECLAIR */
 
 
-/*CARROSSEL LUIZ EDUARDO*/
+/*CARROSSEL LUIS EDUARDO*/
+
+#Slideb{
+    background-color: #000000;
+    position: relative;
+}
+
+#pagina{
+    background-color: #D9D9D9;
+}
+
+.carousel-control-prev{
+    color: #000000;
+    font-size: 60px;
+}
+
+.carousel-control-next,
+.carousel-control-prev{
+  color: #000000;
+  font-size: 60px;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  color: #0D99FF;
+}
+
 
 
 /*BOTÕES DANIEL DORNELAS */

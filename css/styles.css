@@ -28,17 +28,19 @@ p, li {
 
 #para-scrum {
     color: white;
+    width: 414px;
     font-weight: 600;
     font-size: 36px;
     margin-top: 8%;
     line-height: 54px;
-
+    font-family: 'Lexend';
 }
 
 #titulo-aprenda {
     color: white;
     font-size: 48px;
     font-weight: 550;
+    font-family: 'Lexend';
 }
 
 #margem1 {
@@ -63,23 +65,25 @@ p, li {
 #saiba-mais {
 	background: #7E0000;
 	color: white;
-	border-radius: 20px;
+    border-radius: 25px;
     width: 320px;
     height: 80px;
     font-size: 36px;
-    margin-top: 20%;
+    margin-top: 22%;
     margin-block-end: 20%;
+    font-family: 'Merriweather';
 }
 
 #saiba-mais:hover {
 	background: #943636;
 	color: white;
-	border-radius: 20px;
+    border-radius: 25px;
     width: 320px;
     height: 80px;
     font-size: 36px;
-    margin-top: 20%;
+    margin-top: 22%;
     margin-block-end: 20%;
+    font-family: 'Merriweather';
 }
 
 /*CARD MÓDULOS MARIANA RAMALHO*/

@@ -26,8 +26,61 @@ p, li {
     background-color: #004854;
 }
 
+#para-scrum {
+    color: white;
+    font-weight: 600;
+    font-size: 36px;
+    margin-top: 8%;
+    line-height: 54px;
+
+}
+
+#titulo-aprenda {
+    color: white;
+    font-size: 48px;
+    font-weight: 550;
+}
+
+#margem1 {
+    margin-top: 5%;
+}
+
+#margem2 {
+    margin-top: 8%;
+    margin-left: 7%;
+}
+
+#imgscrum {
+    width: 100%;
+}
+
+#container {
+    align-items: center;
+}
+
 /*BOTÃO SAIBA MAIS BIANCA LUCAS */
 
+#saiba-mais {
+	background: #7E0000;
+	color: white;
+	border-radius: 20px;
+    width: 320px;
+    height: 80px;
+    font-size: 36px;
+    margin-top: 20%;
+    margin-block-end: 20%;
+}
+
+#saiba-mais:hover {
+	background: #943636;
+	color: white;
+	border-radius: 20px;
+    width: 320px;
+    height: 80px;
+    font-size: 36px;
+    margin-top: 20%;
+    margin-block-end: 20%;
+}
 
 /*CARD MÓDULOS MARIANA RAMALHO*/
 

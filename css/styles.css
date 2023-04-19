@@ -58,26 +58,31 @@ p, li {
     background-repeat: no-repeat;
 }
 
+#dese2{
+    padding: 66px;
+}
 /*CARDS TIME THEPERRYDEVS*/
 
-.card{
-    position: relative;
+#teamcardtotal{
     width: 350px;
     height: 455px;
     border: hidden;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
+    display: flex;
+    resize: horizontal;
 }
 
-.card-header{
+#teamcardheader{
     position: relative;
     width: 350px;
     height:130px;
     background-color: #F0F0F0;
     border: none;
+    display: flex;
 }
 
-.card-body{
+#teamcardbody{
     position: relative;
     width: 350px;
     height: 350px;
@@ -92,28 +97,30 @@ p, li {
     align-items: flex-end;
 }
 
-.imgBx{
+#teamimgBx{
     position: absolute;
     left: 50%;
-    top: -130px;
+    top: -100px;
     transform: translateX(-50%);
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     background: black;
     border-radius: 50%;
     overflow: hidden;
+    display: flex;
 }
 
-.imgBx img{
+#teamimgBxphoto{
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
+    display: flex;
 }
 
-.card .content{
+#teamcardcontent{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -122,13 +129,13 @@ p, li {
     align-items: flex-end;
 }
 
-.card .content .details{
+#teamcarddetails{
     padding: 50px;
     text-align: center;
     width: 100%;
 }
 
-.card .content .details h2{
+#teamcarddetailsh2{
     font-family: 'Roboto Slab';
     font-style: normal;
     font-size: 1.50em;
@@ -137,7 +144,7 @@ p, li {
     line-height: 2.55em;
 }
 
-.card .content .details h2 span{
+#teamcarddetailsspan{
     font-family: 'Roboto Slab';
     font-style: normal;
     font-size: 1em;
@@ -145,6 +152,15 @@ p, li {
     line-height: 0.75em;
 }
 
+#proximo{
+    left:inherit;
+    right: 4%;
+}
+
+#voltar{
+    right: inherit;
+    left: 0%;
+}
 
     
 

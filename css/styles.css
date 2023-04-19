@@ -49,6 +49,14 @@ p, li {
 
 /*CARROSSEL LUIS EDUARDO*/
 
+.carousel-control-prev:hover #volta{
+    background-color: #0D99FF;
+}
+
+.carousel-control-next:hover #continua{
+    background-color: #0D99FF;
+}
+
 #Slideb{
     background-color: #000000;
     position: relative;
@@ -57,24 +65,6 @@ p, li {
 #pagina{
     background-color: #D9D9D9;
 }
-
-.carousel-control-prev{
-    color: #000000;
-    font-size: 60px;
-}
-
-.carousel-control-next,
-.carousel-control-prev{
-  color: #000000;
-  font-size: 60px;
-}
-
-.carousel-control-prev:hover,
-.carousel-control-next:hover {
-  color: #0D99FF;
-}
-
-
 
 /*BOTÕES DANIEL DORNELAS */
 

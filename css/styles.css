@@ -172,14 +172,6 @@ p, li {
     color: #000;
 }
 
-#row{
-    background-color: #bdbdbd;
-}
-
-#container{
-    background-color: #bdbdbd;
-}
-
 #perrydevlogo{
     width: 100%;
 }
@@ -242,18 +234,14 @@ p, li {
     color: #000;
 }
 
-#row{
-    background-color: #bdbdbd;
+#foot{
+    background-color: #D9D9D9;
 }
 
-#container{
-    background-color: #bdbdbd;
+#contact-area1{
+    background-color: #D9D9D9;
 }
 
 #perrydevlogo{
     width: 100%;
-}
-
-#foot{
-    background-color: #dfdfdf;
 }

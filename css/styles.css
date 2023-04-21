@@ -163,6 +163,16 @@ p, li {
 
 
 /*BARRA DE NAVEGAÇÃO HECLAIR */
+#navCurso{
+    background-color: #DADADA;
+}
+
+#navCurso li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
 
 
 /*CARROSSEL LUIZ EDUARDO*/

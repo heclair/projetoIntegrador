@@ -157,7 +157,36 @@ p, li {
 
 
 /*RODAPÉ RAFAEL ESTEVAM*/
+#title{
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 150%;
+    color: #000;
+}
 
+#txt{
+    text-justify: auto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000;
+}
+
+#row{
+    background-color: #bdbdbd;
+}
+
+#container{
+    background-color: #bdbdbd;
+}
+
+#perrydevlogo{
+    width: 100%;
+}
+
+#foot{
+    background-color: #dfdfdf;
+}
 
 /* --------------------------------------- TELA CONTEÚDO -----------------------------------------------------------------------------*/
 
@@ -198,3 +227,33 @@ p, li {
 
 
 /*RODAPÉ RAFAEL ESTEVAM */
+#title{
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 150%;
+    color: #000;
+}
+
+#txt{
+    text-justify: auto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000;
+}
+
+#row{
+    background-color: #bdbdbd;
+}
+
+#container{
+    background-color: #bdbdbd;
+}
+
+#perrydevlogo{
+    width: 100%;
+}
+
+#foot{
+    background-color: #dfdfdf;
+}

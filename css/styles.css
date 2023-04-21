@@ -18,13 +18,131 @@ p, li {
 /* --------------------------------------- TELA INICIAL -----------------------------------------------------------------------------*/
 
 /*BARRA DE NAVEGAÇÃO BRUNO MENDES*/
+.navbar-toggler{
 
-
+    right: 66px;
+    }
+    
+    #nav1{
+    border-bottom: 25px solid #666666 ;
+    border-top: 25px solid #7E0000;
+    
+    }
+    
+    #rowCinza{
+    
+    border: #000;
+    height: 25px;
+    background-color: #666666;
+    }
+    
+    header, .navbar{
+    z-index: 1;
+    background-color: #FFFFFF;
+    
+    }
+    
+    .navbar-brand{
+    left: 66px;
+    color: #FFFFFF;
+    padding-top: 0px;
+    }
+    
+    #nav2{
+    height: auto;
+    padding-left: 25px   ;
+    padding-right: 25px;
+    }
+    
+    .navbar-brand:hover {
+    color: #000000;   
+    }
+    
+    #navbar-links a{
+    color: #000;
+    font-size: 18px;
+    }
+    #navbar-links a:hover {
+    background-color: #f5a0a071; /* Cor de fundo alterada */
+    color: #000000; /* Cor do texto alterada */
+    box-shadow: 0px 0px 10px #0000004e; /* Sombra adicionada */
+    font-size: 20px;
+    }
+    
+    
+    .navbar-expand-lg .navbar .nav-link {
+    padding: 1rem .8rem;
+    }
+    .custom-padding {
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+    
 /*APRENDA SCRUM BIANCA LUCAS */
 
+#base-verde {
+    background-color: #004854;
+}
+
+#para-scrum {
+    color: white;
+    width: 414px;
+    font-weight: 600;
+    font-size: 36px;
+    margin-top: 8%;
+    line-height: 54px;
+    font-family: 'Lexend';
+}
+
+#titulo-aprenda {
+    color: white;
+    font-size: 48px;
+    font-weight: 550;
+    font-family: 'Lexend';
+}
+
+#margem1 {
+    margin-top: 5%;
+}
+
+#margem2 {
+    margin-top: 8%;
+    margin-left: 7%;
+}
+
+#imgscrum {
+    width: 100%;
+}
+
+#container {
+    align-items: center;
+}
 
 /*BOTÃO SAIBA MAIS BIANCA LUCAS */
 
+#saiba-mais {
+	background: #7E0000;
+	color: white;
+    border-radius: 25px;
+    width: 320px;
+    height: 80px;
+    font-size: 36px;
+    margin-top: 22%;
+    margin-block-end: 20%;
+    font-family: 'Merriweather';
+}
+
+#saiba-mais:hover {
+	background: #943636;
+	color: white;
+    border-radius: 25px;
+    width: 320px;
+    height: 80px;
+    font-size: 36px;
+    margin-top: 22%;
+    margin-block-end: 20%;
+    font-family: 'Merriweather';
+}
 
 /*CARD MÓDULOS MARIANA RAMALHO*/
 
@@ -74,10 +192,36 @@ p, li {
 
 
 /*BARRA DE NAVEGAÇÃO HECLAIR */
+#navCurso{
+    background-color: #DADADA;
+}
+
+#navCurso li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
 
 
-/*CARROSSEL LUIZ EDUARDO*/
+/*CARROSSEL LUIS EDUARDO*/
 
+.carousel-control-prev:hover #volta{
+    background-color: #0D99FF;
+}
+
+.carousel-control-next:hover #continua{
+    background-color: #0D99FF;
+}
+
+#Slideb{
+    background-color: #000000;
+    position: relative;
+}
+
+#pagina{
+    background-color: #D9D9D9;
+}
 
 /*BOTÕES DANIEL DORNELAS */
 

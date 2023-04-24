@@ -146,12 +146,179 @@ p, li {
 
 /*CARD MÓDULOS MARIANA RAMALHO*/
 
+#cardTop{
+	background-color:#004854;
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 150%;
+	color: #FFFFFF;
+}
 
-/*BOTÃO INICIAR CURSO MARIANA RAMALHO*/
+#card-titulo{
+	font-family: 'Roboto', sans-serif;
+	color:black;
+	text-align: left;
+	overflow-wrap: break-word;
+}
 
+#card-text{
+	font-family: 'Roboto', sans-serif;
+	color:black;
+	font-size: 20px;
+	text-align: left;
+	overflow-wrap: break-word;
+}
 
-/*OS DESENVOLVEDORES WILLIAN GARCIA E LUIZ EDUARDO*/
+#cardli{
+	font-family: 'Roboto', sans-serif;
+	color:black;
+	font-weight: 400;
+	font-size: 20px
+}
 
+#botaoiniciar{
+	background-color: #7e0000;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 150%;
+	width: 320px;
+	height: 80px;
+	border: 0px;
+}
+
+/*OS DESENVOLVEDORES WILLIAN GARCIA E LUIS EDUARDO*/
+
+#texto-dev p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #292929;
+}
+
+#texto-dev h1{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    color: #004854;
+}
+
+#dese{
+    background-color: #F0F0F0;
+    background-image: url("../img/Padrão Cinza.png");
+    background-repeat: no-repeat;
+}
+
+#dese2{
+    padding: 66px;
+}
+/*CARDS TIME THEPERRYDEVS*/
+
+#teamcardtotal{
+    width: 350px;
+    height: 455px;
+    border: hidden;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    resize: horizontal;
+}
+
+#teamcardheader{
+    position: relative;
+    width: 350px;
+    height:130px;
+    background-color: #F0F0F0;
+    border: none;
+    display: flex;
+}
+
+#teamcardbody{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background: white;
+    border-top: 10px solid #004854;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#teamimgBx{
+    position: absolute;
+    left: 50%;
+    top: -100px;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 200px;
+    background: black;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+}
+
+#teamimgBxphoto{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+}
+
+#teamcardcontent{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#teamcarddetails{
+    padding: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+#teamcarddetailsh2{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-size: 1.50em;
+    font-weight: 700;
+    color: #292929;
+    line-height: 2.55em;
+}
+
+#teamcarddetailsspan{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 0.75em;
+}
+
+#proximo{
+    left:inherit;
+    right: 4%;
+}
+
+#voltar{
+    right: inherit;
+    left: 0%;
+}
+
+    
 
 /*CONTATO RAFAEL ESTEVAM*/
 

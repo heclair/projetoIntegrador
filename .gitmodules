@@ -1,0 +1,3 @@
+[submodule "WEB"]
+	path = WEB
+	url = https://github.com/ThePerryDev/Web.git

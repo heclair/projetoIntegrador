@@ -4,11 +4,12 @@ body{
 }
 
 .row{
-    margin: 0;
+    margin: 0px;
+    margin-right: 0px;
 }
 
 .container{
-    padding: 70px 0;
+    padding: 50px 0;
 }
 
 p, li {
@@ -352,9 +353,6 @@ p, li {
     padding: 0px;
 }
 
-#contact-area{
-    padding: 0px;
-}
 
 /* --------------------------------------- TELA CONTEÚDO -----------------------------------------------------------------------------*/
 
@@ -394,11 +392,11 @@ p, li {
 
 #pagina{
     background-color: #D9D9D9;
-    
+      
 }
 
 #meuCarrossel{
-    padding-top: 50px;
+    padding-top: 10px;
 }
 
 /*BOTÕES DANIEL DORNELAS */
@@ -406,27 +404,8 @@ p, li {
 
 /*RODAPÉ RAFAEL ESTEVAM */
 
+
+
 #foot2{
     background-color: #D9D9D9;
-}
-
-#fatec-logo{
-    top: 96.61%;
-    bottom: 1.36%;
-    
-}
-
-#cps-logo{
-    top: 95.86%;
-    bottom: 0.6%;
-}
-
-#siga-logo{
-    top: 96.61%;
-    bottom: 1.91%;
-}
-
-#gsp-logo {
-    top: 96.34%;
-    bottom: 1.75%;
 }

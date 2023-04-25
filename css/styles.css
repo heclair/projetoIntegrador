@@ -4,11 +4,12 @@ body{
 }
 
 .row{
-    margin: 0;
+    margin: 0px;
+    margin-right: 0px;
 }
 
 .container{
-    padding: 70px 0;
+    padding: 50px 0;
 }
 
 p, li {
@@ -120,6 +121,41 @@ p, li {
 
 #container {
     align-items: center;
+}
+/*NOSSO CURSO BIANCA LUCAS*/
+#base-cinza{
+    background-color: #F0F0F0;
+    padding: 0px;
+    background-image: url(../img/cps-fundo.png);
+    background-repeat: no-repeat;
+}
+
+#imagem-carousel {
+    width: 100%;
+    height: 100%;
+}
+
+#botao-carousel {
+    margin-left: -10%;
+    margin-right: -10%;
+    margin-top: 45%;
+    width: 50px;
+    height: 50px;
+}
+
+#paraCurso{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: justify;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='dark-gray' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill= 'dark-gray' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
 
 /*BOTÃO SAIBA MAIS BIANCA LUCAS */
@@ -329,31 +365,37 @@ p, li {
     
 
 /*CONTATO RAFAEL ESTEVAM*/
+#ctt-bg{
+    background-color: #004854;
+}
 
+#titulo-ctt{
+    text-align: center ;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 550;
+    font-family: 'Lexend';
+}
+
+#img-git{
+    width: 90%;
+}
+
+#img-ctt{
+    width: 90%;
+}
 
 /*RODAPÉ RAFAEL ESTEVAM*/
-#title{
-    font-weight: 400;
-    font-size: 100px;
-    line-height: 150%;
-    color: #000;
-}
-
-#txt{
-    text-justify: auto;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 150%;
-    color: #000;
-}
-
-#perrydevlogo{
-    width: 100%;
-}
-
 #foot{
-    background-color: #dfdfdf;
+    width: 100%;
+    border-bottom: 1rem solid #7E0000;
+    border-top: 1rem solid #666666;
 }
+
+#contact-area1{
+    padding: 0px;
+}
+
 
 /* --------------------------------------- TELA CONTEÚDO -----------------------------------------------------------------------------*/
 
@@ -361,6 +403,7 @@ p, li {
 /*BARRA DE NAVEGAÇÃO HECLAIR */
 #navCurso{
     background-color: #DADADA;
+    width: 100%;
 }
 
 #navCurso li{
@@ -368,6 +411,11 @@ p, li {
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
+}
+
+#navBarT2{
+    z-index: 4;
+    padding: 0px;
 }
 
 
@@ -388,35 +436,20 @@ p, li {
 
 #pagina{
     background-color: #D9D9D9;
+    max-height: max-content;     
+}
+
+#meuCarrossel{
+    padding-top: 10px;
 }
 
 /*BOTÕES DANIEL DORNELAS */
 
 
 /*RODAPÉ RAFAEL ESTEVAM */
-#title{
-    font-weight: 400;
-    font-size: 100px;
-    line-height: 150%;
-    color: #000;
-}
 
-#txt{
-    text-justify: auto;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 150%;
-    color: #000;
-}
 
-#foot{
+
+#foot2{
     background-color: #D9D9D9;
-}
-
-#contact-area1{
-    background-color: #D9D9D9;
-}
-
-#perrydevlogo{
-    width: 100%;
 }

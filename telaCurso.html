@@ -26,11 +26,19 @@
 <body>
 
      <!--BARRA DE NAVEGAÇÃO HECLAIR -->
+
      <nav class="navbar bg-body-tertiary fixed-top">
         <div class="container-fluid">
             <nav class="navbar navbar fixed-top" id="navCurso">
                 <a href="http://127.0.0.1:5501/index.html#" class="navbar-brand">
                  <img src="img/fatec_jcr_logo.png" alt="fatec jacareí">
+=======
+     <nav class="navbar bg-body-tertiary" id="navBarT2">
+        <div class="container-fluid" id="navBarT2">
+            <nav class="navbar navbar" id="navCurso">
+                <a href="#" class="navbar-brand">
+                 <img src="img/fatec.png" class="img-fluid" alt="fatec jacareí">
+
                 </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -69,14 +77,13 @@
         </div>
       </nav>
 
-     <!--CARROSSEL LUIS EDUARDO -->
-
-
      <!--CARROSSEL LUIZ EDUARDO -->
    
-<div class="container-fluid" id="pagina">
+
+<div class="container-fluid p-0" id="pagina">
     <div class="container" id="slide">
         <div class="row text-center">
+          <div class="col-md-12">
             <div id="meuCarrossel" class="carousel slide" data-bs-theme="dark" data-ride="carousel">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide1"></button>
@@ -168,6 +175,8 @@
                 </button>
             </div>
           </div>
+          </div>
+
       </div>
   </div>
 </div>
@@ -179,26 +188,24 @@
 
     <footer>
       <div id="contact-area">
-          <div class="container-fluid" id="contact-area1">
-              <div class="row" id="foot" >
-                  <div class="col-md-3" d-flex justify-content-center>
-                      <img src="img/Fatec Jacareí.png" alt="">
-                  </div>
-                  <div class="col-md-2" d-flex justify-content-center>
-                      <img src="img/Centro Paula Souza.png" alt="">
-                  </div>
-                  <div class="col-md-3" d-flex justify-content-center>
-                      <img src="img/Siga.png" alt="">
-                  </div>
-                  <div class="col-md-3" d-flex justify-content-center>
-                      <img src="img/Governo do Estado São Paulo.png" alt="">
-                  </div>
-                  <div class="col-md-1" d-flex justify-content-center>
-                      <img src="img/GitHub.png" alt="">
-                  </div>
-              </div>
+        <div class="container-fluid" id="contact-area2">
+          <div class="row" id="foot2">
+            <div class="col-md-3 d-flex justify-content-center p-0">
+              <img src="img/fatec.png" class="img-fluid" alt="" id="fatec-logo" />
+            </div>
+            <div class="col-md-3 d-flex justify-content-center p-0">
+              <img src="img/cps.png" class="img-fluid" alt="" id="cps-logo" />
+            </div>
+            <div class="col-md-3 d-flex justify-content-center p-0">
+              <img src="img/sigafatec.png" class="img-fluid" alt="" id="siga-logo" />
+            </div>
+            <div class="col-md-3 d-flex justify-content-center p-0">
+              <img src="img/gsp.png" class="img-fluid" alt="" id="gsp-logo" />
+            </div>
           </div>
-  </footer>   
+        </div>
+      </div>
+    </footer>
     
 <script src="./js/script.js"></script>
 

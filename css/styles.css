@@ -321,30 +321,39 @@ p, li {
     
 
 /*CONTATO RAFAEL ESTEVAM*/
+#ctt-bg{
+    background-color: #004854;
+}
 
+#titulo-ctt{
+    text-align: center ;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 550;
+    font-family: 'Lexend';
+}
+
+#img-git{
+    width: 90%;
+}
+
+#img-ctt{
+    width: 90%;
+}
 
 /*RODAPÉ RAFAEL ESTEVAM*/
-#title{
-    font-weight: 400;
-    font-size: 100px;
-    line-height: 150%;
-    color: #000;
-}
-
-#txt{
-    text-justify: auto;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 150%;
-    color: #000;
-}
-
-#perrydevlogo{
-    width: 100%;
-}
-
 #foot{
-    background-color: #dfdfdf;
+    width: 100%;
+    border-bottom: 1rem solid #7E0000;
+    border-top: 1rem solid #666666;
+}
+
+#contact-area1{
+    padding: 0px;
+}
+
+#contact-area{
+    padding: 0px;
 }
 
 /* --------------------------------------- TELA CONTEÚDO -----------------------------------------------------------------------------*/
@@ -353,6 +362,7 @@ p, li {
 /*BARRA DE NAVEGAÇÃO HECLAIR */
 #navCurso{
     background-color: #DADADA;
+    width: 100%;
 }
 
 #navCurso li{
@@ -380,35 +390,14 @@ p, li {
 
 #pagina{
     background-color: #D9D9D9;
+    margin: 0px;
 }
 
 /*BOTÕES DANIEL DORNELAS */
 
 
 /*RODAPÉ RAFAEL ESTEVAM */
-#title{
-    font-weight: 400;
-    font-size: 100px;
-    line-height: 150%;
-    color: #000;
-}
 
-#txt{
-    text-justify: auto;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 150%;
-    color: #000;
-}
-
-#foot{
+#foot2{
     background-color: #D9D9D9;
-}
-
-#contact-area1{
-    background-color: #D9D9D9;
-}
-
-#perrydevlogo{
-    width: 100%;
 }

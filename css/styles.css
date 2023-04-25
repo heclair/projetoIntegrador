@@ -371,6 +371,7 @@ p, li {
 }
 
 #navBarT2{
+    z-index: 4;
     padding: 0px;
 }
 

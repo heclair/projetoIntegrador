@@ -437,11 +437,26 @@ p, li {
 }
 
 #meuCarrossel{
+    border-radius: 30px;
     padding-top: 10px;
 }
 
 /*BOTÕES DANIEL DORNELAS */
 
+#home-button, #mod2-button{
+    background: #7E0000;
+	color: white;
+    border-radius: 25px;
+    width: 240px;
+    height: 68px;
+    margin-top: 10px;
+    font-size: 36px;
+    font-family: 'Merriweather';
+}
+
+#mod2-button{
+    float: right;
+}
 
 /*RODAPÉ RAFAEL ESTEVAM */
 

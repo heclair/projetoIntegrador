@@ -61,9 +61,10 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
           <div class="navbar-nav custom-padding">
-              <a class="nav-item nav-link" href="#" id="home-menu">Início</a>
+              <a class="nav-item nav-link" href="#base-verde" id="home-menu">Início</a>
               <a class="nav-item nav-link" href="#modulos"  id="modulo-menu">Módulos</a>
-              <a class="nav-item nav-link" href="#devs" id="devcurso">Desenvolvedores</a>
+              <a class="nav-item nav-link" href="#dese" id="dev-menu">Desenvolvedores</a>
+              <a class="nav-item nav-link" href="#contact-area" id="cont-menu">Contato</a>
           </div>
         </div>    
         </div>
@@ -72,11 +73,11 @@
     </header>
 
     <!--APRENDA SCRUM E BOTÃO SAIBA MAIS  BIANCA LUCAS -->
-    <main>
+    <div>
       <div class="container-fluid" id="base-verde">
         <div class="container" id="container">
           <div class="row" id="row-verde">
-            <div class="col-4" id="margem1">
+            <div class="col-md-4">
               <div id="titulo-scrum">
                 <h1 id="titulo-aprenda">Aprenda Scrum</h1>
               </div>
@@ -86,9 +87,13 @@
                   Scrum.
                 </p>
               </div>
-              <button id="saiba-mais">Saiba mais</button>
+
+              <div onclick="location.href='#modulos'">
+                <button id="saiba-mais">Saiba mais</button>
+              </div>
             </div>
-            <div class="col-7" id="margem2">
+            <div class="col-md-1"></div>
+            <div class="col-md-7 d-flex justify-content-center">
               <img
                 src="img/aprenda-scrum.png"
                 alt="scrum-imagem"
@@ -98,7 +103,7 @@
           </div>
         </div>
       </div>
-
+    </div>
       <!--NOSSO CURSO BIANCA LUCAS-->
       <div id="nossoCurso">
         <div class="container-fluid" id="base-cinza">
@@ -145,14 +150,11 @@
     </div>
     
      </div>
-    </main>
+
 
     <!--CARD MÓDULOS E BOTÃO INICIAR CURSO MARIANA RAMALHO-->
 
-
-    <!--OS DESENVOLVEDORES WILLIAN GARCIA E LUIZ EDUARDO-->
-
-    <div class="modulos">
+    <div id="modulos">
       <div class="container-fluid">
         <div class="container card-center">
           <div class="row" id="row-1">
@@ -208,7 +210,7 @@
   </div>
   <div id="botao1">
     <div class="container button-center">
-      <div class="row justify-content-center"> 
+      <div class="row justify-content-center" onclick="location.href='telaCurso.html'"> 
         <button type="button" class="btn btn-primary btn-lg" id="botaoiniciar">Iniciar</button>
   </div>
   </div>
@@ -372,8 +374,10 @@
           <div class="row align-item-center text-center" id="row-ctt">
             <div class="col-md-6 text-center" id="ctt-left">
               <h1 id="titulo-ctt">Contato</h1>
+
               <div >
-                <img src="img/git2.PNG" id="img-git">
+                <a href="https://github.com/ThePerryDev/docs" target="_blank"><img src="img/git2.PNG" id="img-git"></a>
+
               </div>
             </div>
             <div class="col-md-6" id="ctt-right" >
@@ -391,16 +395,16 @@
         <div class="container-fluid" id="contact-area1">
           <div class="row" id="foot">
             <div class="col-md-3 d-flex justify-content-center">
-              <img src="img/fatec.png" alt="" id="fatec-logo" />
+              <a href="http://www.fatecjacarei.com.br/" target="_blank"><img src="img/fatec.png" alt="" id="fatec-logo" /></a>
             </div>
             <div class="col-md-3 d-flex justify-content-center">
-              <img src="img/cps.png" alt="" id="cps-logo" />
+              <a href="https://www.cps.sp.gov.br/" target="_blank"><img src="img/cps.png" alt="" id="cps-logo" /></a>
             </div>
             <div class="col-md-3 d-flex justify-content-center">
-              <img src="img/sigafatec.png" alt="" id="siga-logo" />
+              <a href="https://siga.cps.sp.gov.br/aluno/login.aspx" target="_blank"><img src="img/sigafatec.png" alt="" id="siga-logo" /></a>
             </div>
             <div class="col-md-3 d-flex justify-content-center">
-              <img src="img/gsp.png" alt="" id="gsp-logo" />
+              <a href="https://www.saopaulo.sp.gov.br/" target="_blanck"><img src="img/gsp.png" alt="" id="gsp-logo" /></a>
             </div>
           </div>
         </div>

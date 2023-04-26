@@ -83,13 +83,14 @@ p, li {
 
 #base-verde {
     background-color: #004854;
+    padding-top: 0px;
 }
 
 #para-scrum {
     color: white;
-    width: 414px;
+    width: 100%;
     font-weight: 600;
-    font-size: 36px;
+    font-size: 200%;
     margin-top: 8%;
     line-height: 54px;
     font-family: 'Lexend';
@@ -97,18 +98,20 @@ p, li {
 
 #titulo-aprenda {
     color: white;
-    font-size: 48px;
+    font-size: 250%;
     font-weight: 550;
     font-family: 'Lexend';
 }
 
 #margem1 {
     margin-top: 5%;
+    margin-left:-1%;
 }
 
 #margem2 {
     margin-top: 8%;
-    margin-left: 7%;
+    margin-left: 1%;
+
 }
 
 #imgscrum {
@@ -160,9 +163,10 @@ p, li {
 	background: #7E0000;
 	color: white;
     border-radius: 25px;
-    width: 320px;
-    height: 80px;
-    font-size: 36px;
+    border: 0;
+    width: 100%;
+    height: 15%;
+    font-size: 200%;
     margin-top: 22%;
     margin-block-end: 20%;
     font-family: 'Merriweather';
@@ -172,9 +176,10 @@ p, li {
 	background: #943636;
 	color: white;
     border-radius: 25px;
-    width: 320px;
-    height: 80px;
-    font-size: 36px;
+    border: 0;
+    width: 100%;
+    height: 15%;
+    font-size: 200%;
     margin-top: 22%;
     margin-block-end: 20%;
     font-family: 'Merriweather';

@@ -166,12 +166,14 @@ p, li {
 
 #saiba-mais {
 	background: #7E0000;
-  color: white;
+    color: #fff;
     border-radius: 25px;
     border: 0;
-    width: 100%;
-    height: 15%;
+
     font-size: 200%;
+
+    padding: 5% 5%;
+
     margin-top: 22%;
     margin-block-end: 20%;
     font-family: 'Merriweather';
@@ -179,12 +181,14 @@ p, li {
 
 #saiba-mais:hover {
 	background: #943636;
-	color: white;
+    color: #fff;
     border-radius: 25px;
     border: 0;
-    width: 100%;
-    height: 15%;
+
     font-size: 200%;
+
+    padding: 5% 5%;
+
     margin-top: 22%;
     margin-block-end: 20%;
     font-family: 'Merriweather';

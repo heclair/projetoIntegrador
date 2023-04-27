@@ -12,6 +12,11 @@ body{
     padding: 50px 0;
 }
 
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 p, li {
     color:black ;
 }
@@ -126,7 +131,7 @@ p, li {
     background-color: #F0F0F0;
     padding: 0px;
     background-image: url(../img/cps-fundo.png);
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
 }
 
 #imagem-carousel {
@@ -247,17 +252,15 @@ p, li {
     font-size: 40px;
     line-height: 150%;
     color: #004854;
+    word-wrap: break-word;
 }
 
 #dese{
     background-color: #F0F0F0;
     background-image: url("../img/Padrão Cinza.png");
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
 }
 
-#dese2{
-    padding: 66px;
-}
 /*CARDS TIME THEPERRYDEVS*/
 
 #teamcardtotal{
@@ -418,16 +421,11 @@ p, li {
 
 /*CARROSSEL LUIS EDUARDO*/
 
-.carousel-control-prev:hover #volta{
-    background-color: #0D99FF;
-}
-
-.carousel-control-next:hover #continua{
-    background-color: #0D99FF;
+#indicadores{
+    bottom: -20px;
 }
 
 #Slideb{
-    background-color: #000000;
     position: relative;
 }
 

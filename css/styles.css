@@ -449,10 +449,12 @@ p, li {
     background: #7E0000;
 	color: white;
     border-radius: 25px;
-    width: 240px;
-    height: 68px;
+    width: 25%;
+    height: auto;
     margin-top: 10px;
-    font-size: 36px;
+    font-size: 2vw;
+    max-height: 68px;
+    max-width: 240px;
     font-family: 'Merriweather';
 }
 
@@ -462,7 +464,9 @@ p, li {
 
 /*RODAPÉ RAFAEL ESTEVAM */
 
-
+#fatec-logo, #cps-logo, #siga-logo, #gsp-logo{
+    size: 1vw;
+}
 
 #foot2{
     background-color: #D9D9D9;

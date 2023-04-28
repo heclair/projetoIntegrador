@@ -443,6 +443,14 @@ p, li {
     padding-top: 10px;
 }
 
+#continua{
+    margin-block-end: 5%;
+}
+
+#volta {
+    margin-block-end: 5%;
+}
+
 /*BOTÕES DANIEL DORNELAS */
 
 #home-button, #mod2-button{
